@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
 
 function App() {
   return (
-    // <div>
-    <fragment>
+     <div>
       <div className='Header'>
         Phone Directory
       </div>
@@ -13,11 +13,10 @@ function App() {
         <span> Name </span> <br />
         <span> Phone </span>
       </div>
-      <label htmlFor="name"> Name: </label>
-      <input id="name" type="text" placeholder="Type Here" defaultValue="Aayush"/>
-      </fragment>
-    // </div>
-  )
+       </div>
+
+
+  );
 }
 
 export default App;
